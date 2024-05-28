@@ -1,4 +1,4 @@
-# VidTrack-Manager-Application-
+# VidTrack-Manager-
 Enhanced user interface and input validation features enable users to add, update, delete, search, and list videos with the YouTube Manager application, a command-line tool for managing a list of YouTube videos.
 It is a command-line tool designed to help users manage a list of YouTube videos stored in a JSON file ('youtube.txt'). This tool allows users to perform various operations, including listing all videos, adding new videos, updating existing videos, deleting videos, searching for videos, and exiting the application. Below is a detailed description of each functionality, how it works, and the functions used to implement these features:
 # 1. List All YouTube Videos
