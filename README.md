@@ -7,7 +7,9 @@ Displays a list of all YouTube videos currently stored in the JSON file.
 
 ## How It Works:
 -> The list_all_videos(videos) function is called.
+
 -> It prints a header and iterates over the list of videos, printing each video's name and duration in a formatted manner.
+
 -> If there are no videos, it informs the user that no videos are available.
 
 ## Function Used: list_all_videos(videos)
@@ -21,8 +23,11 @@ Prompts the user to input a new video's name and duration, and then adds this vi
 
 ## How It Works:
 -> The add_video(videos) function is called.
+
 -> It prompts the user to enter the video's name and duration.
+
 -> The new video details are appended to the videos list as a dictionary.
+
 -> The save_data_helper(videos) function is called to save the updated list to the JSON file and inform the user that the data has been saved.
 
 ## Function Used: add_video(videos), save_data_helper(videos)
@@ -36,10 +41,15 @@ Allows the user to update the details of an existing video by selecting it from 
 
 ## How It Works:
 -> The update_video(videos) function is called.
+
 -> It calls list_all_videos(videos) to display the current videos.
+
 -> It prompts the user to select the video number they wish to update.
+
 -> If the input is valid, the user is prompted to enter the new video name and duration.
+
 -> The selected video in the videos list is updated with the new details.
+
 -> The save_data_helper(videos) function is called to save the changes.
 
 ## Function Used: update_video(videos), list_all_videos(videos), save_data_helper(videos)
@@ -54,9 +64,13 @@ Allows the user to delete a video by selecting it from the list.
 
 ## How It Works:
 ->The delete_video(videos) function is called.
+
 ->It calls list_all_videos(videos) to display the current videos.
+
 ->It prompts the user to select the video number they wish to delete.
+
 ->If the input is valid, the selected video is removed from the videos list.
+
 ->The save_data_helper(videos) function is called to save the updated list.
 
 ## Function Used: delete_video(videos), list_all_videos(videos), save_data_helper(videos)
@@ -71,8 +85,11 @@ Allows the user to delete a video by selecting it from the list.
 
  ## How It Works:
 -> The search_video(videos) function is called.
+
 -> It prompts the user to enter a search term.
+
 -> It filters the videos list to find videos whose names contain the search term (case-insensitive).
+
 -> The found videos are displayed in a formatted list. If no videos match the search term, it informs the user that no videos were found.
 
 ## Function Used: search_video(videos)
@@ -83,6 +100,7 @@ Exits the application.
 
 ## How It Works:
 -> The user selects the option to exit.
+
 -> A goodbye message is printed, and the loop in the main() function breaks, terminating the application.
 
 ## Function Used: No specific function, handled in the main() function loop.
